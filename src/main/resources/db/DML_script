@@ -1,0 +1,6 @@
+//insert the two products
+INSERT INTO `norwegian_db`.`product` (`id`, `name`, `number_of_units`, `price`) VALUES ('1', 'Product1', '20', '175');
+INSERT INTO `norwegian_db`.`product` (`id`, `name`, `number_of_units`, `price`) VALUES ('2', 'Product2', '5', '825');
+
+// insert sample Customer
+INSERT INTO `norwegian_db`.`customer` (`id`, `email`,`name`) VALUES ('1', 'mohamed@gmail.com',`mohamed`);
